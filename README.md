@@ -20,10 +20,10 @@ Este proyecto es una implementación del clásico juego Snake utilizando Java y 
 
 1. Clona este repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu_usuario/snake-game-java.git
+   git clone https://github.com/JeysonhT/SnakeGameWithJava.git
    ```
 2. Abre el proyecto en tu IDE preferido.
-3. Compila y ejecuta la clase principal `Ventana.java`.
+3. Compila y ejecuta la clase principal `SnakeGame.java`.
 
 ## Estructura del proyecto
 
@@ -35,11 +35,12 @@ Este proyecto es una implementación del clásico juego Snake utilizando Java y 
 |   |-- Snake.java
 |   |-- apple.java
 |   |-- Ventana.java
+|   |-- SnakeGame.java
 ```
 
 - **Snake.java**: Clase que representa la serpiente, contiene la cabeza y el cuerpo.
 - **apple.java**: Clase que representa la manzana.
-- **Ventana.java**: Clase principal que maneja la interfaz gráfica y la lógica del juego.
+- **Ventana.java**: Clase de la ventana de swing que maneja la interfaz gráfica y la lógica del juego.
 
 ## Controles del juego
 
@@ -51,7 +52,6 @@ Este proyecto es una implementación del clásico juego Snake utilizando Java y 
 ## Mejoras futuras
 
 - Agregar niveles de dificultad.
-- Implementar un sistema de puntaje.
 - Agregar efectos de sonido.
 - Permitir reiniciar el juego tras perder.
 
