@@ -30,8 +30,8 @@ Este proyecto es una implementación del clásico juego Snake utilizando Java y 
 ```
 |-- src
 |   |-- resources
-|   |   |-- serpiente(1).png
-|   |   |-- manzana.png
+|   |   |-- greenSquare(1).png
+|   |   |-- redSquare(1).png
 |   |-- Snake.java
 |   |-- apple.java
 |   |-- Ventana.java
